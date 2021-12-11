@@ -1,0 +1,51 @@
+! special
+URxvt.foreground: #D7DAE0
+URxvt.background: #1E1E29
+URxvt.cursorColor: #B3E1A3
+
+! black
+URxvt.color0: #6E6C7C
+URxvt.color8: #6E6C7C
+
+! red
+URxvt.color1: #E28C8C
+URxvt.color9: #E28C8C
+
+! green
+URxvt.color2: #B3E1A3
+URxvt.color10: #B3E1A3
+
+! yellow
+URxvt.color3: #EADDA0
+URxvt.color11: #EADDA0
+
+! blue
+URxvt.color4: #A4B9EF
+URxvt.color12: #A4B9EF
+
+! magenta
+URxvt.color5: #C6AAE8
+URxvt.color13: #C6AAE8
+
+! cyan
+URxvt.color6: #F0AFE1
+URxvt.color14: #F0AFE1
+
+! white
+URxvt.color7: #D7DAE0
+URxvt.color15: #D7DAE0
+
+!! URxvt Appearance
+/* URxvt.font: xft:JetBrainsMono Nerd Font:size=13 */
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 24
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.depth: 24
+URxvt.iso14755: false
