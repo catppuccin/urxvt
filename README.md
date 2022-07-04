@@ -17,8 +17,9 @@
 
 ## Usage
 
-1. Copy the contents of [this file](https://github.com/catppuccin/urxvt/blob/main/catppuccin.Xresources) into `~/.Xresources`
-2. Source the file with: `xrdb ~/.Xresources`
+1. Choose your flavour.
+2. Copy the contents of _flavour_.Xresources into `~/.Xresources`.
+3. Source the file with: `xrdb -merge ~/.Xresources`.
 
 ## 💝 Thanks to
 
