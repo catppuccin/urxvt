@@ -1,0 +1,50 @@
+! special
+URxvt.background: #1e1e2e
+URxvt.foreground: #cdd6f4
+URxvt.cursorColor: #f5e0dc
+
+! black
+URxvt.color0: #45475a
+URxvt.color8: #585b70
+
+! red
+URxvt.color1: #f38ba8
+URxvt.color9: #f38ba8
+
+! green
+URxvt.color2: #a6e3a1
+URxvt.color10: #a6e3a1
+
+! yellow
+URxvt.color3: #f9e2af
+URxvt.color11: #f9e2af
+
+! blue
+URxvt.color4: #89b4fa
+URxvt.color12: #89b4fa
+
+! magenta
+URxvt.color5: #f5c2e7
+URxvt.color13: #f5c2e7
+
+! cyan
+URxvt.color6: #94e2d5
+URxvt.color14: #94e2d5
+
+! white
+URxvt.color7: #bac2de
+URxvt.color15: #a6adc8
+
+!! URxvt Appearance
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 24
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.depth: 24
+URxvt.iso14755: false
