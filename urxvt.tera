@@ -1,58 +1,55 @@
 ---
 whiskers:
-  version: 2.1.0
+  version: "2.2.0"
   matrix:
     - flavor
   filename: "themes/{{ flavor.identifier }}.Xresources"
 ---
-
-{%- set palette = flavor.colors -%}
-
 ! special
-URxvt.background: #{{ palette.base.hex }}
-URxvt.foreground: #{{ palette.text.hex }}
-URxvt.cursorColor: #{{ palette.rosewater.hex }}
+URxvt.background: #{{ base.hex }}
+URxvt.foreground: #{{ text.hex }}
+URxvt.cursorColor: #{{ rosewater.hex }}
 
 ! black
 {%- if flavor.dark %}
-URxvt.color0: #{{ palette.surface1.hex }}
-URxvt.color8: #{{ palette.surface2.hex }}
+URxvt.color0: #{{ surface1.hex }}
+URxvt.color8: #{{ surface2.hex }}
 {%- else %}
-URxvt.color0: #{{ palette.subtext1.hex }}
-URxvt.color8: #{{ palette.subtext0.hex }}
+URxvt.color0: #{{ subtext1.hex }}
+URxvt.color8: #{{ subtext0.hex }}
 {%- endif %}
 
 ! red
-URxvt.color1: #{{ palette.red.hex }}
-URxvt.color9: #{{ palette.red.hex }}
+URxvt.color1: #{{ red.hex }}
+URxvt.color9: #{{ red.hex }}
 
 ! green
-URxvt.color2: #{{ palette.green.hex }}
-URxvt.color10: #{{ palette.green.hex }}
+URxvt.color2: #{{ green.hex }}
+URxvt.color10: #{{ green.hex }}
 
 ! yellow
-URxvt.color3: #{{ palette.yellow.hex }}
-URxvt.color11: #{{ palette.yellow.hex }}
+URxvt.color3: #{{ yellow.hex }}
+URxvt.color11: #{{ yellow.hex }}
 
 ! blue
-URxvt.color4: #{{ palette.blue.hex }}
-URxvt.color12: #{{ palette.blue.hex }}
+URxvt.color4: #{{ blue.hex }}
+URxvt.color12: #{{ blue.hex }}
 
 ! magenta
-URxvt.color5: #{{ palette.pink.hex }}
-URxvt.color13: #{{ palette.pink.hex }}
+URxvt.color5: #{{ pink.hex }}
+URxvt.color13: #{{ pink.hex }}
 
 ! cyan
-URxvt.color6: #{{ palette.teal.hex }}
-URxvt.color14: #{{ palette.teal.hex }}
+URxvt.color6: #{{ teal.hex }}
+URxvt.color14: #{{ teal.hex }}
 
 ! white
 {%- if flavor.dark %}
-URxvt.color7: #{{ palette.subtext1.hex }}
-URxvt.color15: #{{ palette.subtext0.hex }}
+URxvt.color7: #{{ subtext1.hex }}
+URxvt.color15: #{{ subtext0.hex }}
 {%- else %}
-URxvt.color7: #{{ palette.surface2.hex }}
-URxvt.color15: #{{ palette.surface1.hex }}
+URxvt.color7: #{{ surface2.hex }}
+URxvt.color15: #{{ surface1.hex }}
 {%- endif %}
 
 !! URxvt Appearance
