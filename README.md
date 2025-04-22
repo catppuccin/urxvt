@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/res.webp"/>
+  <img src="assets/preview.webp"/>
 </p>
 
 ## Previews
@@ -34,16 +34,14 @@
 <img src="assets/mocha.webp"/>
 </details>
 
-
 ## Usage
 
-1. Choose your flavour.
-2. Copy the contents of _flavour_.Xresources into `~/.Xresources`.
-3. Source the file with: `xrdb -merge ~/.Xresources`.
+1. Copy the contents of the flavor of your choice from [`themes/`](./themes/) into `~/.Xresources`.
+2. Source the file with `xrdb -merge ~/.Xresources`.
 
 ## 💝 Thanks to
 
--   [Pocco81](https://github.com/Pocco81)
+- [Pocco81](https://github.com/Pocco81)
 
 &nbsp;
 
