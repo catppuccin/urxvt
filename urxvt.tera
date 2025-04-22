@@ -4,52 +4,53 @@ whiskers:
   matrix:
     - flavor
   filename: "themes/{{ flavor.identifier }}.Xresources"
+  hex_format: "#{{R}}{{G}}{{B}}{{Z}}"
 ---
 ! special
-URxvt.background: #{{ base.hex }}
-URxvt.foreground: #{{ text.hex }}
-URxvt.cursorColor: #{{ rosewater.hex }}
+URxvt.background: {{ base.hex }}
+URxvt.foreground: {{ text.hex }}
+URxvt.cursorColor: {{ rosewater.hex }}
 
 ! black
 {%- if flavor.dark %}
-URxvt.color0: #{{ surface1.hex }}
-URxvt.color8: #{{ surface2.hex }}
+URxvt.color0: {{ surface1.hex }}
+URxvt.color8: {{ surface2.hex }}
 {%- else %}
-URxvt.color0: #{{ subtext1.hex }}
-URxvt.color8: #{{ subtext0.hex }}
+URxvt.color0: {{ subtext1.hex }}
+URxvt.color8: {{ subtext0.hex }}
 {%- endif %}
 
 ! red
-URxvt.color1: #{{ red.hex }}
-URxvt.color9: #{{ red.hex }}
+URxvt.color1: {{ red.hex }}
+URxvt.color9: {{ red.hex }}
 
 ! green
-URxvt.color2: #{{ green.hex }}
-URxvt.color10: #{{ green.hex }}
+URxvt.color2: {{ green.hex }}
+URxvt.color10: {{ green.hex }}
 
 ! yellow
-URxvt.color3: #{{ yellow.hex }}
-URxvt.color11: #{{ yellow.hex }}
+URxvt.color3: {{ yellow.hex }}
+URxvt.color11: {{ yellow.hex }}
 
 ! blue
-URxvt.color4: #{{ blue.hex }}
-URxvt.color12: #{{ blue.hex }}
+URxvt.color4: {{ blue.hex }}
+URxvt.color12: {{ blue.hex }}
 
 ! magenta
-URxvt.color5: #{{ pink.hex }}
-URxvt.color13: #{{ pink.hex }}
+URxvt.color5: {{ pink.hex }}
+URxvt.color13: {{ pink.hex }}
 
 ! cyan
-URxvt.color6: #{{ teal.hex }}
-URxvt.color14: #{{ teal.hex }}
+URxvt.color6: {{ teal.hex }}
+URxvt.color14: {{ teal.hex }}
 
 ! white
 {%- if flavor.dark %}
-URxvt.color7: #{{ subtext1.hex }}
-URxvt.color15: #{{ subtext0.hex }}
+URxvt.color7: {{ subtext1.hex }}
+URxvt.color15: {{ subtext0.hex }}
 {%- else %}
-URxvt.color7: #{{ surface2.hex }}
-URxvt.color15: #{{ surface1.hex }}
+URxvt.color7: {{ surface2.hex }}
+URxvt.color15: {{ surface1.hex }}
 {%- endif %}
 
 !! URxvt Appearance

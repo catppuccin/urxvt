@@ -1,39 +1,39 @@
 ! special
-URxvt.background: #eff1f5
-URxvt.foreground: #4c4f69
-URxvt.cursorColor: #dc8a78
+URxvt.background: #EFF1F5
+URxvt.foreground: #4C4F69
+URxvt.cursorColor: #DC8A78
 
 ! black
-URxvt.color0: #5c5f77
-URxvt.color8: #6c6f85
+URxvt.color0: #5C5F77
+URxvt.color8: #6C6F85
 
 ! red
-URxvt.color1: #d20f39
-URxvt.color9: #d20f39
+URxvt.color1: #D20F39
+URxvt.color9: #D20F39
 
 ! green
-URxvt.color2: #40a02b
-URxvt.color10: #40a02b
+URxvt.color2: #40A02B
+URxvt.color10: #40A02B
 
 ! yellow
-URxvt.color3: #df8e1d
-URxvt.color11: #df8e1d
+URxvt.color3: #DF8E1D
+URxvt.color11: #DF8E1D
 
 ! blue
-URxvt.color4: #1e66f5
-URxvt.color12: #1e66f5
+URxvt.color4: #1E66F5
+URxvt.color12: #1E66F5
 
 ! magenta
-URxvt.color5: #ea76cb
-URxvt.color13: #ea76cb
+URxvt.color5: #EA76CB
+URxvt.color13: #EA76CB
 
 ! cyan
 URxvt.color6: #179299
 URxvt.color14: #179299
 
 ! white
-URxvt.color7: #acb0be
-URxvt.color15: #bcc0cc
+URxvt.color7: #ACB0BE
+URxvt.color15: #BCC0CC
 
 !! URxvt Appearance
 URxvt.letterSpace: 0
